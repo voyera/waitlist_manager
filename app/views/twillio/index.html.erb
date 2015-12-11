@@ -1,0 +1,5 @@
+<%= form_tag(send_text_path, method: :put) do |f| %>
+    <%= telephone_field_tag 'number', '+1' %><br>
+    <%= text_field_tag 'message', 'Enter message here' %>
+    <%= submit_tag 'Send.' %>
+<% end %>
