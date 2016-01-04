@@ -1,5 +1,12 @@
+<h1>Send your text</h1>
 <%= form_tag(send_text_path, method: :put) do |f| %>
-    <%= telephone_field_tag 'number', '+1' %><br>
-    <%= text_field_tag 'message', 'Enter message here' %>
-    <%= submit_tag 'Send.' %>
+    <fieldset class="form-group">
+        <%= telephone_field_tag 'number', '+1', class: 'form-control' %>
+    </fieldset>
+    <fieldset class="form-group">
+        <%= text_field_tag 'message', 'Enter message here', class: 'form-control' %>
+    </fieldset>
+    <fieldset class="form-group">
+        <%= submit_tag 'Send', class: 'btn btn-primary' %>
+    </fieldset>
 <% end %>
