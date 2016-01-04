@@ -9,3 +9,8 @@ When the table is ready, if a phone number is provided, a text (using twillio) c
 # Setup
 
 Simply rename config/application_example.yml to config/application.yml and add your twillio api keys.
+
+# What's planned
+
+* Simple frontend user interaction. Simply add the following information: Name of primary guest, phone number, number of people.
+* Possibility for the staff to see waiting time average
