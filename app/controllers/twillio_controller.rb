@@ -1,3 +1,4 @@
+# Class used for testing Twillio's API
 class TwillioController < ApplicationController
   def index
   end
